@@ -97,7 +97,6 @@ li {
         /* Check e croci colorate */
 
 li::before {
-;
     font-size: 12px;
     width: 15px;
     height: 15px;  
