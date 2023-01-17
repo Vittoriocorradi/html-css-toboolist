@@ -1,6 +1,6 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -28,7 +28,6 @@ h1 {
     vertical-align: middle;
     font-size: 68px;
     font-family: 'Roboto', sans-serif;
-
 }
 
         /*Inizio main*/
@@ -37,6 +36,9 @@ main {
     background-color: rgb(255,255,255);
     max-width: 65%;
     margin: 0 auto;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
 
 }
 
@@ -54,8 +56,6 @@ main {
     border-radius: 8px;
     margin-right: 5px;
     color: white;
-    font-family: 'Roboto', sans-serif;
-
 }
 
 #button-2 {
@@ -64,5 +64,93 @@ main {
     padding: 14px 20px;
     border-radius: 8px;
     color: #C8CED3;
-    font-family: 'Roboto', sans-serif;
+}
+ 
+        /* Liste */
+
+.lists {
+    margin-left: 90px;
+}
+
+h2 {
+    margin-top: 35px;
+}
+
+h2::before {
+    content:'\25BC';
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+        /* Check e croci colorate */
+
+li::before {
+;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;  
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.green::before {
+    content: '\2713';
+    border: 2px solid #65C1AA;
+    color: #65C1AA;
+}
+
+.red::before {
+    content: '\2717';
+    border: 2px solid #FF0000;
+    color: #FF0000;
+}
+
+        /* Contenitori colorati */
+
+.box {
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px 15px;
+    border-radius: 15px;
+    color: white;
+    margin-left: 5px;
+}
+
+.editorial {
+    background-color: #45ABEA;
+}
+
+.goals {
+    background-color: #9C72E4;
+}
+
+.recruiting {
+    background-color: #65C1AA;
+}
+
+.mobile {
+    background-color: #F29E33;
+}
+
+.website {
+    background-color: #D863A1;
+}
+
+.sales {
+    background-color: #B0C926;
 }
